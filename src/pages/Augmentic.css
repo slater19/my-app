@@ -1,0 +1,100 @@
+.hr-theme-slash-2 {
+    display: flex;
+}    
+    .hr-line {
+      width: 100%;
+      position: relative;
+      margin: 15px;
+      border-bottom: 1px solid grey;
+    }
+
+    .hr-icon {
+      position: relative;
+      top: 3px;
+      color: #ff0000;
+    }
+  
+
+    .hr-theme-slash-3{
+
+text-align: center;
+
+    }
+
+    .button {
+        
+        height: 50px;
+        padding: 0;
+        background: #ea4c89;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: "Quicksand", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+      
+    }
+    
+    .button:hover {
+        background: #ea4c89;
+    }
+    
+    .button:active {
+        background: #ea4c89;
+    }
+    
+    .button__text
+   {
+        display: inline-flex;
+        align-items: center;
+        padding: 0 24px;
+        color: white;
+        height: 100%;
+    }
+    
+    .hr-theme-slash-4 {
+        margin-left: 10px;
+    }    
+
+       
+    .hr-theme-slash-5 {
+        text-align: right;
+        position: relative;
+        right: 50px; 
+        bottom: 30px;
+        color: #ea4c89;
+
+    } 
+    .hr-theme-slash-7 {
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+         
+        bottom: 100px;
+        color: #ea4c89;
+
+    } 
+
+    .profile-pic {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .profile-pic:hover .edit {
+        display: block;
+    }
+    
+    .edit {
+        padding-top: 7px;	
+        padding-right: 7px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+    
+    .edit a {
+        color: #000;
+    }
